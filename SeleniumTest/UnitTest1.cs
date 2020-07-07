@@ -15,7 +15,7 @@ namespace SeleniumTest
         [Test, Description("Teste da busca do google"), Category("Smoke-Test")]
         public void MyFirstTest()
         {
-            Console.WriteLine("Estou aqui!");
+            Console.WriteLine("Inicio do teste!");
 
             
             driver = new ChromeDriver(chromedriverPath);
@@ -30,7 +30,7 @@ namespace SeleniumTest
             Assert.IsTrue(linkText.Text.Contains("Selenium"));
 
             driver.Quit();
-
+            Console.WriteLine("Fim do teste!");
         }
 
         [Test, Description("Teste da busca do google"), Category("Priority-Test")]
