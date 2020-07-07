@@ -2,6 +2,7 @@
 using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
+using SeleniumTest.Utils;
 
 namespace SeleniumTest
 {
@@ -9,12 +10,14 @@ namespace SeleniumTest
     public class UnitTest1
     {
         private IWebDriver driver;
-        private readonly string chromedriverPath = @"C:\Users\1680395\source\repos\SeleniumTest\SeleniumTest\bin\Debug";
+        private readonly string chromedriverPath = ProjectHelpers.GetProjectPath() + "Drivers";
 
         [Test, Description("Teste da busca do google"), Category("Smoke-Test")]
         public void MyFirstTest()
         {
             Console.WriteLine("Estou aqui!");
+
+            
             driver = new ChromeDriver(chromedriverPath);
             driver.Navigate().GoToUrl("https://www.google.com.br");
 

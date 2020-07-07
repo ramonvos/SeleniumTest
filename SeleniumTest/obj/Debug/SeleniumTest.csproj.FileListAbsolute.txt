@@ -21,3 +21,4 @@ C:\Users\1680395\source\repos\SeleniumTest\SeleniumTest\bin\Debug\nunit.framewor
 C:\Users\1680395\source\repos\SeleniumTest\SeleniumTest\bin\Debug\nunit.framework.xml
 C:\Users\1680395\source\repos\SeleniumTest\SeleniumTest\bin\Debug\WebDriver.xml
 C:\Users\1680395\source\repos\SeleniumTest\SeleniumTest\obj\Debug\SeleniumTest.csprojAssemblyReference.cache
+C:\Users\1680395\source\repos\SeleniumTest\SeleniumTest\bin\Debug\Drivers\chromedriver.exe
